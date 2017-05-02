@@ -2,7 +2,10 @@
 name: php_init
 version: 0.0.1
 language: php
-description: PHP environment initialize
+description: "
+  本插件主要是用作初始化本flow的PHP环境和输出环境变量（包括项目相关的变量和PHP相关的变量）
+- 注意事项
+  此插件必须放在flow的第一个，否则会出现PHP的环境问题"
 public: true
 tags:
   - php
